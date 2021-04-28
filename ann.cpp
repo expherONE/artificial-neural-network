@@ -83,7 +83,7 @@ if (neuron1!=0 || neuron2!=0)//si alguno de los dos es diferente de 0 entonces e
 }
 
 //neuron4
-if (neuron4!=0)
+if (neuron1!=0 || neuron2!=0)
 {
     neuron4 = (neuron1 * weight_neuron1_neuron4) + ( neuron2 * weight_neuron2_neuron4);
     cout<<"neurona 4 = ", cout<<neuron4<<endl;
