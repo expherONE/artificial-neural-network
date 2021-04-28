@@ -19,8 +19,8 @@ double entrada2;
 double weight_input_neuron1=1;
 double weight_input_neuron2=1;
 //interconexiones
-double weight_neuron1_neuron3=1;
-double weight_neuron1_neuron4=1;
+double weight_neuron1_neuron3=-1;
+double weight_neuron1_neuron4=-1;
 double weight_neuron2_neuron3=1;
 double weight_neuron2_neuron4=1;
 //salidas
@@ -28,8 +28,8 @@ double weight_neuron3_output=1;
 double weight_neuron4_output=1;
 
 //salidas
-int salida1;
-int salida2;
+double salida1;
+double salida2;
 
 //------------------------------------------------------
 
@@ -55,7 +55,8 @@ cout<<"weight_neuron1_neuron3 = ", cout<<weight_neuron1_neuron3<<endl;
 cout<<"weight_neuron1_neuron4 = ", cout<<weight_neuron1_neuron4<<endl;
 cout<<"weight_neuron2_neuron3 = ", cout<<weight_neuron2_neuron3<<endl;
 cout<<"weight_neuron2_neuron4 = ", cout<<weight_neuron2_neuron4<<endl;
-
+cout<<"weight_neuron3_output =", cout<<weight_neuron3_output<<endl;
+cout<<"weight_neuron4_output =", cout<<weight_neuron4_output<<endl;
 
 
 
